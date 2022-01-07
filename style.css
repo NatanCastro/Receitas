@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+.hover-effect:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+
+p {
+  text-indent: 25px;
+}
