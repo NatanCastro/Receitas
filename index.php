@@ -49,7 +49,7 @@
                 <nav>
                   <ul class="flex flex-row justify-items-center justify-center">
                     <li><a class="hover-effect px-3 py-2 bg-white rounded-tl-xl rounded-bl-xl border-solid border-black border-r" href="add-receita.php">adionar receita</a></li>
-                    <li><a class="hover-effect px-3 py-2 bg-white rounded-tr-xl rounded-br-xl" href="receitas.php">listar receitas</a></li>
+                    <li><a class="hover-effect px-3 py-2 bg-white rounded-tr-xl rounded-br-xl" href="lista_ceceitas.php">listar receitas</a></li>
                   </ul>
                 </nav>
               </article>

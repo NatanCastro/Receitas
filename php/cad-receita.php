@@ -16,9 +16,16 @@
 
     try {
       $sql = "INSERT INTO receitas VALUES (null, '$nome_receita', '$desc_receita', '$img_conteudo', $id_usuario)";
+
+      $stmt = $conn->prepare($sql); 
+      $stmt->execute(array());
+
+      header('lista_receitas.php');
     } catch (PDOException $e) {
       echo '<script>Error: '. $e->getMessage() .'</script>';
     }
+
+    
   }
   else {
     echo 'não foi possivel cadastrar';
