@@ -12,7 +12,7 @@
     <div class="container bg-orange-500 m-auto">
       <div>
         <nav class="flex flex-row justify-between p-5">
-          <h1 class="text-2xl font-bold justify-items-center uppercase"><a href="/">Receitas da Vó</a></h1>
+          <h1 class="text-2xl font-bold justify-items-center uppercase"><a href="index.php">Receitas da Vó</a></h1>
           <ul class="flex flex-row justify-items-center rounded-xl">
             <li><a class="hover-effect p-2 bg-white rounded-tl-xl rounded-bl-xl" href="index.php"><span>Home</span></a></li>
             <li><a class="hover-effect p-2 bg-white" href="#"><span>About</span></a></li>

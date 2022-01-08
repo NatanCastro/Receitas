@@ -5,41 +5,41 @@
               <section class="mb-12"> 
                 <h1 class="text-4xl font-bold mb-6">Receitas para todos</h1>
                 <p class="text-lg text-justify mb-12">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis debitis numquam dolores, sapiente placeat sit natus omnis quae delectus molestiae consequuntur dicta nihil recusandae beatae tenetur, earum nostrum cum sequi!Architecto quos nisi vitae maxime veritatis consectetur minima aut placeat facilis quam voluptate, illo, ullam sed quis numquam! Perferendis, aut! Deserunt commodi dolore praesentium pariatur dignissimos molestiae ipsum, ipsam totam?</p>
-                <ul class="grid grid-cols-3 grid-rows-2 justify-items-center gap-y-16">
-                  <li class="w-11/12 bg-yellow-300 content-center text-black p-3 rounded-xl">
+                <ul class="flex flex-wrap flex-row gap-5 justify-center">
+                  <li class="w-11/12 bg-yellow-300 content-center text-black p-3 rounded-xl w-80">
                     <h4 class="text-xl text-center">comida 1</h4>
                     <figure><img src="./images/comida.jpg" alt="imagem">
-                      <figcaption class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi natus qui, neque eveniet autem odio hic maxime repudiandae quod perferendis assumenda quia vero dolorum voluptas cumque debitis amet quis laborum!</figcaption>
+                      <figcaption>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi natus qui, neque eveniet autem odio hic maxime repudiandae quod perferendis assumenda quia vero dolorum voluptas cumque debitis amet quis laborum!</figcaption>
                     </figure>
                   </li>
-                  <li class="w-11/12 bg-yellow-300 content-center text-black p-3 rounded-xl">
+                  <li class="w-11/12 bg-yellow-300 content-center text-black p-3 rounded-xl w-80">
                     <h4 class="text-xl text-center">comida 2</h4>
                     <figure><img src="./images/comida.jpg" alt="imagem">
-                      <figcaption class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi natus qui, neque eveniet autem odio hic maxime repudiandae quod perferendis assumenda quia vero dolorum voluptas cumque debitis amet quis laborum!</figcaption>
+                      <figcaption>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi natus qui, neque eveniet autem odio hic maxime repudiandae quod perferendis assumenda quia vero dolorum voluptas cumque debitis amet quis laborum!</figcaption>
                     </figure>
                   </li>
-                  <li class="w-11/12 bg-yellow-300 content-center text-black p-3 rounded-xl">
+                  <li class="w-11/12 bg-yellow-300 content-center text-black p-3 rounded-xl w-80">
                     <h4 class="text-xl text-center">comida 3</h4>
                     <figure><img src="./images/comida.jpg" alt="imagem">
-                      <figcaption class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi natus qui, neque eveniet autem odio hic maxime repudiandae quod perferendis assumenda quia vero dolorum voluptas cumque debitis amet quis laborum!</figcaption>
+                      <figcaption>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi natus qui, neque eveniet autem odio hic maxime repudiandae quod perferendis assumenda quia vero dolorum voluptas cumque debitis amet quis laborum!</figcaption>
                     </figure>
                   </li>
-                  <li class="w-11/12 bg-yellow-300 content-center text-black p-3 rounded-xl">
+                  <li class="w-11/12 bg-yellow-300 content-center text-black p-3 rounded-xl w-80">
                     <h4 class="text-xl text-center">comida 4</h4>
                     <figure><img src="./images/comida.jpg" alt="imagem">
-                      <figcaption class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi natus qui, neque eveniet autem odio hic maxime repudiandae quod perferendis assumenda quia vero dolorum voluptas cumque debitis amet quis laborum!</figcaption>
+                      <figcaption>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi natus qui, neque eveniet autem odio hic maxime repudiandae quod perferendis assumenda quia vero dolorum voluptas cumque debitis amet quis laborum!</figcaption>
                     </figure>
                   </li>
-                  <li class="w-11/12 bg-yellow-300 content-center text-black p-3 rounded-xl">
+                  <li class="w-11/12 bg-yellow-300 content-center text-black p-3 rounded-xl w-80">
                     <h4 class="text-xl text-center">comida 5</h4>
                     <figure><img src="./images/comida.jpg" alt="imagem">
-                      <figcaption class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi natus qui, neque eveniet autem odio hic maxime repudiandae quod perferendis assumenda quia vero dolorum voluptas cumque debitis amet quis laborum!</figcaption>
+                      <figcaption>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi natus qui, neque eveniet autem odio hic maxime repudiandae quod perferendis assumenda quia vero dolorum voluptas cumque debitis amet quis laborum!</figcaption>
                     </figure>
                   </li>
-                  <li class="w-11/12 bg-yellow-300 content-center text-black p-3 rounded-xl">
+                  <li class="w-11/12 bg-yellow-300 content-center text-black p-3 rounded-xl w-80">
                     <h4 class="text-xl text-center">comida 6</h4>
                     <figure><img src="./images/comida.jpg" alt="imagem">
-                      <figcaption class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi natus qui, neque eveniet autem odio hic maxime repudiandae quod perferendis assumenda quia vero dolorum voluptas cumque debitis amet quis laborum!</figcaption>
+                      <figcaption>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi natus qui, neque eveniet autem odio hic maxime repudiandae quod perferendis assumenda quia vero dolorum voluptas cumque debitis amet quis laborum!</figcaption>
                     </figure>
                   </li>
                 </ul>
@@ -55,7 +55,7 @@
               </article>
             </main>
             <?php
-              require_once 'includes/footer.php'
+              require_once 'includes/footer.php';
             ?>
         </div>
       </div>
