@@ -1,33 +1,29 @@
 <?php
-  require"conecxao.php";
-
-  $nome_receita = $_POST['nome'];
-  $desc_receita = $_POST['desc_receita'];
-  $id_usuario;
-  
-  $img_receita = $_POST['img_receita']['tmp_name'];
-  $img_tamanho = $_POST['img_receita']['size'];
+  include"conexao.php";
+  $nome_receita = filter_input(INPUT_POST, 'nome_receita', FILTER_SANITIZE_SPECIAL_CHARS);
+  $desc_receita = filter_input(INPUT_POST, 'desc_receita', FILTER_SANITIZE_SPECIAL_CHARS);
+  $id_usuario   = 0;
+  $img_tamanho  = $_FILES['imagem']['size'];
+  $img_receita  = $_FILES['imagem']['tmp_name'];
   
 
   if ($img_receita != NULL) {
-    $fp = fopen($img_receita, 'rb');
+    $fp           = fopen($img_receita, 'rb');
     $img_conteudo = addslashes(fread($fp, $img_tamanho));
     fclose($fp);
 
     try {
-      $sql = "INSERT INTO receitas VALUES (null, '$nome_receita', '$desc_receita', '$img_conteudo', $id_usuario)";
-
-      $stmt = $conn->prepare($sql); 
+      $sql  = "INSERT INTO receitas VALUES (null, '$nome_receita', '$desc_receita', '$img_conteudo', $id_usuario)";
+      $stmt = $conn->prepare($sql);
       $stmt->execute(array());
 
-      header('lista_receitas.php');
+      header('location: ../lista_receitas.php');
     } catch (PDOException $e) {
       echo '<script>Error: '. $e->getMessage() .'</script>';
     }
-
-    
   }
   else {
-    echo 'não foi possivel cadastrar';
+    echo '<p>não foi possivel cadastrar</p>';
+    echo '<a href="../index.php">inicio</a>';
   }
 ?>

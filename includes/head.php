@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Receitas</title>
   </head>
-  <body class="box-border bg-gray-200 font-mono">
+  <body class="box-border bg-gray-200 font-mono xl:flex">
     <div class="container bg-orange-500 m-auto">
       <div>
         <nav class="flex flex-row justify-between p-5">

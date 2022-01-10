@@ -3,7 +3,7 @@
 ?>
 
 <main class="flex justify-center">
-  <form class="bg-gray-200 p-5" action="php/cad-receita.php" method="POST">
+  <form class="bg-gray-200 p-5" action="php/cad-receita.php" method="POST" enctype="multipart/form-data">
     <div class="mb-5">
       <input class="w-full p-1" id="nome" type="text" name="nome" placeholder="Nome da receita" required/>
     </div>
