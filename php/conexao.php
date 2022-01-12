@@ -9,7 +9,6 @@ try {
 
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
   echo "<script>console.log('conectado com sucesso')</script>";
-} catch(PDOException $e) {
+} catch (PDOException $e) {
   echo "<script>console.error('Connection failed:" . $e->getMessage() . "')</script>";
 }
-?>

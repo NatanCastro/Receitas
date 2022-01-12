@@ -10,3 +10,6 @@
 p {
   text-indent: 25px;
 }
+input[type=submit] {
+  cursor: pointer;
+}
