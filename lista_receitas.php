@@ -16,11 +16,17 @@ require_once "php/conexao.php";
       <h2 class="text-4xl text-center"><?php echo $registro['nome'] ?></h2>
       <img src="data:image/gif;base64, <?php echo base64_encode($registro['img_receita']) ?>" alt="<?php echo $registro['nome'] ?>">
       <p>
-        <?php echo $registro['desc_receita'] ?> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci neque est quaerat, esse aperiam maxime architecto cum consequuntur quasi alias? Molestiae excepturi ex labore voluptatum similique architecto laborum impedit sed.
+        <?php echo $registro['desc_receita'] ?>
       </p>
       <div class="flex flex-row justify-evenly">
-        <form action="editar_receita.php" method="post"><input type="hidden" name="id"><input type="submit" value="editar"></form>
-        <form action="excluir_receita.php" method="post"><input type="hidden" name="id"><input type="submit" value="excluir"></form>
+        <form action="editar_receita.php" method="post">
+          <input type="hidden" name="id" value="<?php echo $registro['id'] ?>">
+          <input type="submit" value="editar" name="editar">
+        </form>
+        <form action="php/excluir_receita.php" method="post">
+          <input type="hidden" name="id" value="<?php echo $registro['id'] ?>">
+          <input type="submit" value="excluir" name="excluir">
+        </form>
       </div>
     </section>
   <?php

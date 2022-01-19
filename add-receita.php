@@ -14,7 +14,7 @@ require_once 'includes/head.php'
       <label class="text-orange-600" for="imagem">Imagem da receita</label>
       <input type="file" name="imagem" id="imagem" required>
     </div>
-    <div class=" flex justify-center">
+    <div class="flex justify-center">
       <input class="text-white bg-orange-400 px-4 py-2" type="submit" value="enviar">
     </div>
   </form>

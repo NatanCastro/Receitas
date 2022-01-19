@@ -1,5 +1,5 @@
 # Receitas
 
-construido com php html e tailwindcss
+construido com php, html e tailwindcss
 
 um site para compartilhamento de receitas
